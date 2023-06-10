@@ -4,4 +4,20 @@
 input {
     height:30px;
     border-radius: 20px;
+    width:100%;
+}
+
+.nav-left {
+    margin-inline: 100px;
+}
+
+.nav-middle {
+    display: flex;
+    flex:1 1 auto;
+}
+form {
+    flex:1 1 auto;
+}
+.nav-right {
+    margin-inline: 100px;
 }
