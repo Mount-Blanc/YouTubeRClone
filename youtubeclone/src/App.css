@@ -1,0 +1,7 @@
+.header-container{
+    display: flex;
+}
+input {
+    height:30px;
+    border-radius: 20px;
+}
