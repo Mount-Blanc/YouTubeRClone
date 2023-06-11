@@ -30,7 +30,7 @@ input {
 }
 
 .nav-left {
-    margin-inline: 100px;
+    margin-right: 140px;
 }
 
 .nav-middle {
@@ -41,7 +41,7 @@ form {
     flex:1 1 auto;
 }
 .nav-right {
-    margin-inline: 100px;
+    margin-left: 100px;
 }
 .nav-middle-container {
     flex:1 1 auto
@@ -78,4 +78,31 @@ form {
 .links:hover,
 .links.active{
     background: rgba(0, 0, 0, 0.1);
+}
+.filters{
+    position: fixed;
+    left: 250px;
+    top: 60px;
+    width: calc(100% - 250px);
+    height: 70px;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.filter-options{
+    flex: 0 0 auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 15px;
+    cursor: pointer;
 }

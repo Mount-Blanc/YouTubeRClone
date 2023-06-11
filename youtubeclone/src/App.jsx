@@ -28,21 +28,7 @@ function App() {
 
       </div>
       </div>
-      <div className="header-categories">
-        <button>All</button>
-        <button>Mixes</button>
-        <button>Gaming</button>
-        <button>Music</button>
-        <button>Psychology</button>
-        <button>Podcasts</button>
-        <button>Soundtracks</button>
-        <button>Japanese Music</button>
-        <button>Live</button>
-        <button>Manga</button>
-        <button>Jazz</button>
-        <button>Computer Science</button>
 
-      </div>
      </header>
     < div class="side-bar">
     <a href="#" class="links active">home</a>
@@ -54,6 +40,19 @@ function App() {
     <a href="#" class="links">like video</a>
     <a href="#" class="links">show more</a>
 </div>
+<div class="filters">
+    <button class="filter-options active">all</button>
+    <button class="filter-options">CSS</button>
+    <button class="filter-options">web development</button>
+    <button class="filter-options">python</button>
+    <button class="filter-options">entertainment</button>
+    <button class="filter-options">marvel</button>
+    <button class="filter-options">javascript</button>
+    <button class="filter-options">artificial intelligence</button>
+    <button class="filter-options">machine learning</button>
+    <button class="filter-options">trending</button>
+</div>
+
     </>
   )
 }
