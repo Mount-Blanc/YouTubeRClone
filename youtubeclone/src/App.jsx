@@ -12,11 +12,15 @@ function App() {
         <span>logo</span>
       </div>
       <div className="nav-middle">
-        <form>
+    <form>
+
           <input placeholder="Search"/>
-          <button>S</button>
-        </form>
-      </div >
+
+         <button className="search-button">S</button>  
+               </form>
+               
+                 </div>
+
       <div className="nav-right">right</div>
       </div>
       <div className="header-categories">
