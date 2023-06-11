@@ -1,5 +1,5 @@
-
-import './App.css'
+import sloth from './sloth.jpg';
+import './App.css';
 
 function App() {
 
@@ -51,6 +51,18 @@ function App() {
     <button class="filter-options">artificial intelligence</button>
     <button class="filter-options">machine learning</button>
     <button class="filter-options">trending</button>
+</div>
+<div class="video-container">
+    <div class="video">
+        <img src={sloth} class="thumbnail" alt="Thumbnail"/>
+        <div class="content">
+            <img src={sloth} class="channel-icon" alt="ChannelIcon"/>
+            <div class="info">
+                <h4 class="title">Title</h4>
+                <p class="channel-name">Channel Name</p>
+            </div>
+        </div>
+    </div>
 </div>
 
     </>
