@@ -21,7 +21,12 @@ function App() {
                
                  </div>
 
-      <div className="nav-right">right</div>
+      <div className="nav-right">
+        <span>create</span>
+        <span>notifications</span>
+        <span>Sign in</span>
+
+      </div>
       </div>
       <div className="header-categories">
         <button>All</button>
@@ -39,6 +44,16 @@ function App() {
 
       </div>
      </header>
+    < div class="side-bar">
+    <a href="#" class="links active">home</a>
+    <a href="#" class="links">explore</a>
+    <a href="#" class="links">subscription</a>
+    <a href="#" class="links">library</a>
+    <a href="#" class="links">history</a>
+    <a href="#" class="links">your watch leater</a>
+    <a href="#" class="links">like video</a>
+    <a href="#" class="links">show more</a>
+</div>
     </>
   )
 }
