@@ -74,3 +74,8 @@ form {
     font-weight: 500;
     text-decoration: none;
 }
+
+.links:hover,
+.links.active{
+    background: rgba(0, 0, 0, 0.1);
+}
