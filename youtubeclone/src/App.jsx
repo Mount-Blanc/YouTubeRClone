@@ -63,6 +63,26 @@ function App() {
             </div>
         </div>
     </div>
+    <div class="video">
+        <img src={sloth} class="thumbnail" alt="Thumbnail"/>
+        <div class="content">
+            <img src={sloth} class="channel-icon" alt="ChannelIcon"/>
+            <div class="info">
+                <h4 class="title">Title</h4>
+                <p class="channel-name">Channel Name</p>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <img src={sloth} class="thumbnail" alt="Thumbnail"/>
+        <div class="content">
+            <img src={sloth} class="channel-icon" alt="ChannelIcon"/>
+            <div class="info">
+                <h4 class="title">Title</h4>
+                <p class="channel-name">Channel Name</p>
+            </div>
+        </div>
+    </div>
 </div>
 
     </>
